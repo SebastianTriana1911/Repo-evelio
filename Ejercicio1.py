@@ -84,34 +84,33 @@ def letras (lista):
             lista.append(valor)
             if valor == "salir":
                 lista.pop(-1)
-                return lista
         else:
             print ("Lo que ingreso no es una letra")
             salir = False
             return lista
 
 
-# llenarList(listaLenguaje)
-# print (f"Esta es la lista de lenguajes {listaLenguaje}\n")
-# print (f"{posicionList(listaLenguaje)}\n")
-# mayusculas(listaLenguaje)
-# print (f"Esta es la lista de lenguajes en mayuscula {listaLenguaje}\n")
+llenarList(listaLenguaje)
+print (f"Esta es la lista de lenguajes {listaLenguaje}\n")
+print (f"{posicionList(listaLenguaje)}\n")
+mayusculas(listaLenguaje)
+print (f"Esta es la lista de lenguajes en mayuscula {listaLenguaje}\n")
 
-# llenarList(listaRegionales)
-# print (f"Esta es la lista de regionales del SENA {listaRegionales}\n")
-# print (f"{posicionList(listaRegionales)}\n")
-# mayusculas(listaRegionales)
-# print (f"Esta es la lista de regionales del SENA en mayuscula {listaRegionales}\n")
+llenarList(listaRegionales)
+print (f"Esta es la lista de regionales del SENA {listaRegionales}\n")
+print (f"{posicionList(listaRegionales)}\n")
+mayusculas(listaRegionales)
+print (f"Esta es la lista de regionales del SENA en mayuscula {listaRegionales}\n")
 
-# pares(listaPares)
-# print (f"La lista de los pares es: {listaPares}")
+pares(listaPares)
+print (f"La lista de los pares es: {listaPares}")
 
-# multiplos(listaMultiplos_4)
-# print (f"\nLa lista de los multiplos de 4 es: {listaMultiplos_4}")
+multiplos(listaMultiplos_4)
+print (f"\nLa lista de los multiplos de 4 es: {listaMultiplos_4}")
 
-# llenarListMay (lista_2693630)
-# print (f"\nLa lista de los integrantes de la ficha 2693630 es {lista_2693630}")
+llenarListMay (lista_2693630)
+print (f"\nLa lista de los integrantes de la ficha 2693630 es {lista_2693630}")
 
 letras(listaLetras)
-print (listaLetras)
+print (f"\nLa lista de las letras es: {listaLetras}")
 
