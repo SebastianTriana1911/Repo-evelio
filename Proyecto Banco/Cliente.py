@@ -1,3 +1,4 @@
+from Cuenta import *
 class Cliente:
     def __init__ (self):
         self.__cedula = int(input("Ingrese su cedula: "))
@@ -14,3 +15,7 @@ class Cliente:
     def DatosClientes (self):
         return f"El numero de cedula {self.__cedula} pertenece a {self.__nombre}"
     
+    def agregarCuenta (self):
+        cuenta = Cuenta()
+
+    def agregarAhorro (self):
