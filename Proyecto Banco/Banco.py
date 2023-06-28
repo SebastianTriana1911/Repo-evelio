@@ -1,4 +1,5 @@
 from Cliente import *
+from Cuenta import *
 class Banco:
     def __init__ (self):
         self.__nombre = input("El nombre del banco es: ")
@@ -31,4 +32,6 @@ class Banco:
             if cedula == i.getCedula():
                 print (f"""Los datos de dicho numero de cedula son:
 Nombre: {i.getNombre()}
-Cedula: {i.getCedula()}\n""")
+Cedula: {i.getCedula()}\n
+Numero de cuenta: {i.getNumero()}
+Saldo: {i.getSaldo()}""")
