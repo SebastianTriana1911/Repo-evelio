@@ -16,8 +16,8 @@ if res == "1":
 4. Ver un cliente en especifico
 5. Obtener el numero de clientes de un banco
 6. Asignar un cliente para pasarle una cuenta
+7. Ver el saldo de la cuenta de un cliente
 6. Ver saldos totales cuentas de ahorros
-7. Ver saldos totales cuentas corrientes
 8. Salir
 """)
     
@@ -38,8 +38,7 @@ if res == "1":
             case "5":
                 print(banco.obtenerNumeroCliente())
             case "6":
-                
-            case "7":
+                print(banco.asignarCuenta())
 
             case "8":  
                 print ("Adios")

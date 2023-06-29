@@ -32,11 +32,4 @@ mi_pool = pooling.MySQLConnectionPool (pool_name= "pool",
                                        user = "root",
                                        password = "")
 
-# Insertar datos en la base de datos
-conexion1 = mi_pool.get_connection()
-cursor = conexion1.cursor()
-cursor.execute("SELECT * FROM clientes")
-result = cursor.fetchall()
-print(result)
-conexion1.close()
 
