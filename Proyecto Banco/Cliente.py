@@ -15,5 +15,5 @@ class Cliente:
         return f"El numero de cedula {self.__cedula} pertenece a {self.__nombre}"
     
     def pasarCuenta (self):
-        cuenta = Cuenta ()
+        cuenta = Cuenta()
         return self.__cuenta.append(cuenta)
